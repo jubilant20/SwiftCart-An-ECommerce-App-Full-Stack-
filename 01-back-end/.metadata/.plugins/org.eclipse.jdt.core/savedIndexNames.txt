@@ -82,6 +82,7 @@ INDEX VERSION 1.134+C:\Users\JUBIKJ\OneDrive - Capgemini\Desktop\eCommerce-App\0
 2128204535.index
 1791989681.index
 2093801109.index
+1865797976.index
 1345660473.index
 4055074982.index
 32429830.index
