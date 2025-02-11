@@ -7,13 +7,13 @@ INDEX VERSION 1.134+C:\Users\JUBIKJ\OneDrive - Capgemini\Desktop\eCommerce-App\0
 417022704.index
 3711852281.index
 204884667.index
-1923505964.index
 3890165840.index
+501649445.index
 3240406085.index
+3472616083.index
 2851992509.index
 312656013.index
-3472616083.index
-501649445.index
+1923505964.index
 1430393595.index
 2578508049.index
 2795903685.index
@@ -55,8 +55,8 @@ INDEX VERSION 1.134+C:\Users\JUBIKJ\OneDrive - Capgemini\Desktop\eCommerce-App\0
 3449183773.index
 3045735634.index
 3474565386.index
-1317526198.index
 3459979107.index
+1317526198.index
 747332189.index
 2340720768.index
 2484744992.index
