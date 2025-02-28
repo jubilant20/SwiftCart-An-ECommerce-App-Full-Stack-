@@ -37,3 +37,10 @@
 2025-02-11 11:22:55,711 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-02-11 11:22:55,719 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-02-11 11:22:55,724 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUBIKJ\OneDrive - Capgemini\Desktop\eCommerce-App\01-back-end\spring-boot-ecommerce\spring-boot-ecommerce\src\test\resources
+2025-02-11 16:57:46,885 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-11 16:57:46,953 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-11 16:57:46,968 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUBIKJ\OneDrive - Capgemini\Desktop\eCommerce-App\01-back-end\spring-boot-ecommerce\spring-boot-ecommerce\src\test\resources
+2025-02-28 13:41:05,096 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-02-28 13:41:27,860 [Worker-13: Launching spring-boot-ecommerce - SpringBootEcommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-28 13:41:27,882 [Worker-13: Launching spring-boot-ecommerce - SpringBootEcommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-28 13:41:27,893 [Worker-13: Launching spring-boot-ecommerce - SpringBootEcommerceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUBIKJ\OneDrive - Capgemini\Desktop\eCommerce-App\01-back-end\spring-boot-ecommerce\spring-boot-ecommerce\src\test\resources

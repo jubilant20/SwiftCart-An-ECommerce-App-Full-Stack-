@@ -33,21 +33,24 @@ public class MyDataRestConfig implements RepositoryRestConfigurer
 	{
 		HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST, HttpMethod.DELETE};
 		
-		//delete HTTP methods for Product: PUT, POST and DELETE
+		//disabling HTTP methods for Product: PUT, POST and DELETE
 		
 		config.getExposureConfiguration()
 				.forDomainType(Product.class) 
 				.withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
 				.withCollectionExposure((metdata,httpMethods) -> httpMethods.disable(theUnsupportedActions));
 		
-		//delete HTTP methods for ProductCategory: PUT, POST and DELETE
-		
+		//disabling the HTTP methods for ProductCategory: PUT, POST and DELETE
+		//The methods .withItemExposure and .withCollectionExposure are part of the Spring Data REST configuration 
+		//used to customize the exposure of entity resources in the REST API.
 		config.getExposureConfiguration()
-		.forDomainType(ProductCategory.class) 
-		.withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
-		.withCollectionExposure((metdata,httpMethods) -> httpMethods.disable(theUnsupportedActions));
+			.forDomainType(ProductCategory.class) 
+			.withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+			.withCollectionExposure((metdata,httpMethods) -> httpMethods.disable(theUnsupportedActions));
 		
 		//call an internal helper method
+		// This method is responsible for exposing the IDs of all JPA entities in the REST API.
+		//By default, Spring Data REST does not expose entity IDs in the JSON responses. This method modifies that behavior to include the IDs.
 		exposeIds(config);
 	}
 	private void exposeIds(RepositoryRestConfiguration config) {
